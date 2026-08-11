@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MusicPlayer } from "./MusicPlayer";
 
 export const metadata: Metadata = {
   title: "Manuel & Donna | Wedding Celebration",
@@ -31,6 +32,7 @@ const assetPrefix = process.env.GITHUB_ACTIONS ? "/Manuel-Donna" : "";
 export default function Home() {
   return (
     <main>
+      <MusicPlayer src={`${assetPrefix}/backgroundmusic.mp3`} />
       <section className="hero" id="top">
         <img className="hero-image" src={`${assetPrefix}/manuel-donna.png`} alt="Manuel and Donna smiling together" />
         <div className="hero-wash" />
@@ -88,7 +90,8 @@ export default function Home() {
       <section className="rsvp section" id="rsvp">
         <p className="section-kicker">We hope you can join us</p>
         <h2>Let us celebrate<br /><em>together.</em></h2>
-        <a className="button" href="mailto:eben92paul@gmail.com?subject=Manuel%20Donna%20Marriage&amp;body=We%20would%20be%20attending%20the%20Marriage%20reception">Kindly RSVP <span>↗</span></a>
+          <a className="button" href="mailto:eben92paul@gmail.com?subject=Manuel%20Donna%20Marriage&amp;body=We%20would%20be%20attending%20the%20Marriage%20reception">Kindly RSVP <span>↗</span></a>
+          <a className="button secondary-button" href={`${assetPrefix}/manuel-donna-wedding-invite.pdf`} download>Download wedding invite <span>↓</span></a>
         <div className="contact-details">
           <p>For more details</p>
           <a href="tel:+919447049509">+91 94470 49509</a>
