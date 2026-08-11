@@ -40,10 +40,16 @@ pdf.rect(0, 0, W, H, fill=1, stroke=0)
 centered(pdf, "WITH JOYFUL HEARTS", H - 42, "Helvetica", 7, SAGE)
 centered(pdf, "Manuel Varghese & Donna Sanju", H - 72, "Times-Roman", 22)
 centered(pdf, "invite you to celebrate their marriage", H - 93, "Times-Italic", 11, SAGE)
+pdf.setFillColor(colors.HexColor("#687269"))
+pdf.setFont("Helvetica", 7)
+pdf.drawString(48, H - 109, "Son of Varghese Paul & Jaisy Varghese")
+pdf.drawString(48, H - 120, "Kaniyamkudy House, Choorakode")
+pdf.drawString(W / 2 + 18, H - 109, "Daughter of Sanju Varghese & Bincy Paul")
+pdf.drawString(W / 2 + 18, H - 120, "Thannikkottu House, Vadavucode")
 pdf.setStrokeColor(colors.HexColor("#b8c3b4"))
-pdf.line(48, H - 120, W - 48, H - 120)
+pdf.line(48, H - 136, W - 48, H - 136)
 
-left, right, top = 48, W / 2 + 18, H - 142
+left, right, top = 48, W / 2 + 18, H - 158
 pdf.setFillColor(SAGE)
 pdf.setFont("Helvetica", 7)
 pdf.drawString(left, top, "THE CEREMONY")
