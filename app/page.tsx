@@ -11,7 +11,7 @@ const events = [
     label: "The Ceremony",
     date: "Sunday, 20 September 2026",
     place: "St. George Jacobite Syrian Church",
-    address: "Ernakulam, Kerala 683562",
+    address: "Chooracode, Ernakulam, Kerala 683562",
     qr: "/st-george-choorakode.png",
     href: "https://maps.google.com/?q=St.+George+Jacobite+Syrian+Church+Choorakode",
   },
@@ -46,6 +46,7 @@ export default function Home() {
           <p className="eyebrow">A new chapter begins</p>
           <h1>Manuel <span>&amp;</span> Donna</h1>
           <p className="hero-date">20 · 09 · 2026</p>
+          <blockquote className="hero-verse"><strong>Matthew 19:6</strong><span>“So they are no longer two, but one. Therefore what God has joined together, let man not separate.”</span></blockquote>
           <a className="hero-arrow" href="#story" aria-label="Scroll to our story">↓</a>
         </div>
       </section>
@@ -59,7 +60,6 @@ export default function Home() {
             <div><strong>Manuel Varghese</strong><span>Son of Varghese Paul &amp; Jaisy Varghese<br />Kaniyamkudy House, Choorakode</span></div>
             <div><strong>Donna Sanju</strong><span>Daughter of Sanju Varghese &amp; Bincy Paul<br />Thannikkottu House, Vadavucode</span></div>
           </div>
-          <blockquote className="verse">“We love because he first loved us.”<cite>1 John 4:19</cite></blockquote>
         </div>
       </section>
 
