@@ -71,11 +71,15 @@ qr_size = 48
 qr_y = top - 155
 pdf.drawImage(ImageReader(PUBLIC / "st-george-choorakode.png"), left, qr_y, qr_size, qr_size, mask="auto")
 pdf.drawImage(ImageReader(PUBLIC / "petrose-event-centre.png"), right, qr_y, qr_size, qr_size, mask="auto")
+pdf.setFillColor(SAGE)
+pdf.setFont("Helvetica", 5.5)
+pdf.drawString(left, qr_y - 10, "SCAN FOR DIRECTIONS")
+pdf.drawString(right, qr_y - 10, "SCAN FOR DIRECTIONS")
 
 pdf.setStrokeColor(colors.HexColor("#b8c3b4"))
 pdf.line(48, 92, W - 48, 92)
 centered(pdf, "FOR MORE DETAILS", 72, "Helvetica", 7, SAGE)
 centered(pdf, "+91 94470 49509  ·  +91 99610 62460", 55, "Helvetica", 9)
-centered(pdf, "RSVP: eben92paul@gmail.com", 38, "Helvetica", 8)
+centered(pdf, "With love, Manuel & Donna", 38, "Times-Italic", 9, SAGE)
 pdf.save()
 print(OUTPUT)
