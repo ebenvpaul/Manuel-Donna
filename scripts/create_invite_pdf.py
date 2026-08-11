@@ -67,6 +67,8 @@ pdf.drawString(right, top - 58, "Sunday, 20 September 2026")
 pdf.drawString(left, top - 72, "Chooracode, Ernakulam, Kerala 683562")
 pdf.drawString(right, top - 72, "P.P Road, Vadayampady P.O, Puthencruz,")
 pdf.drawString(right, top - 85, "Ernakulam, Kerala 682308")
+pdf.drawImage(ImageReader(PUBLIC / "st-george-choorakode.png"), left + 118, top - 123, 48, 48, mask="auto")
+pdf.drawImage(ImageReader(PUBLIC / "petrose-event-centre.png"), right + 118, top - 123, 48, 48, mask="auto")
 
 pdf.setStrokeColor(colors.HexColor("#b8c3b4"))
 pdf.line(48, 92, W - 48, 92)
