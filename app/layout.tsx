@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   title: "Manuel & Donna | Wedding Celebration",
   description: "Join Manuel and Donna as they begin their next chapter together.",
   icons: {
-    icon: `${assetPrefix}/favicon.svg`,
-    shortcut: `${assetPrefix}/favicon.svg`,
+    icon: `${assetPrefix}/love.png`,
+    shortcut: `${assetPrefix}/love.png`,
   },
 };
 

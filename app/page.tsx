@@ -11,7 +11,7 @@ const events = [
     label: "The Ceremony",
     date: "Sunday, 20 September 2026",
     place: "St. George Jacobite Syrian Church",
-    address: "Choorakode",
+    address: "Ernakulam, Kerala 683562",
     qr: "/st-george-choorakode.png",
     href: "https://maps.google.com/?q=St.+George+Jacobite+Syrian+Church+Choorakode",
   },
@@ -20,7 +20,7 @@ const events = [
     label: "The Celebration",
     date: "Sunday, 20 September 2026",
     place: "PetRose Event Centre",
-    address: "Vadavucode",
+    address: "P.P Road, Vadayampady P.O, Puthencruz, Ernakulam, Kerala 682308",
     qr: "/petrose-event-centre.png",
     href: "https://maps.google.com/?q=PetRose+Event+Centre+Vadavucode",
   },
@@ -59,6 +59,7 @@ export default function Home() {
             <div><strong>Manuel Varghese</strong><span>Son of Varghese Paul &amp; Jaisy Varghese<br />Kaniyamkudy House, Choorakode</span></div>
             <div><strong>Donna Sanju</strong><span>Daughter of Sanju Varghese &amp; Bincy Paul<br />Thannikkottu House, Vadavucode</span></div>
           </div>
+          <blockquote className="verse">“We love because he first loved us.”<cite>1 John 4:19</cite></blockquote>
         </div>
       </section>
 
@@ -87,7 +88,7 @@ export default function Home() {
       <section className="rsvp section" id="rsvp">
         <p className="section-kicker">We hope you can join us</p>
         <h2>Let us celebrate<br /><em>together.</em></h2>
-        <a className="button" href="mailto:manuelanddonna@example.com?subject=Wedding RSVP">Kindly RSVP <span>↗</span></a>
+        <a className="button" href="mailto:eben92paul@gmail.com?subject=Manuel%20Donna%20Marriage&amp;body=We%20would%20be%20attending%20the%20Marriage%20reception">Kindly RSVP <span>↗</span></a>
         <div className="contact-details">
           <p>For more details</p>
           <a href="tel:+919447049509">+91 94470 49509</a>
