@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const events = [
   {
-    time: "03:00 PM",
+    time: "02:30 PM",
     label: "The Ceremony",
     date: "Sunday, 20 September 2026",
     place: "St. George Jacobite Syrian Church",
